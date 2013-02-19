@@ -12,11 +12,18 @@ Contenuto del pacchetto
   1. spodata.zip: modulo Drupal StatPortal OpenData
 	2. seven.zip: template amministrazione
 	3. statportal.zip: template front-end
-- servizi: contiene i servizi Java da installare e configurare
+- servizi Java da installare e configurare:
+	1. D2RQServerStarter
+	2. OpenDataProxy
+	3. StatPortalOpenData
+- applicazioni da installare sotto Tomcat:
+	1. WSOpenDataETL (il modulo ETL)
+	2. ProxyServlet (il proxy verso il geoserver)
+	3. OpenDataGisViewer
+- librerie:
+	1. OpenData1.3
+	2. STRestExtensions
 - README.txt: descrizione del pacchetto
-- webapps: contiene le applicazioni da installare sotto Tomcat
-	1. Il modulo ETL
-	2. Il proxy verso il geoserver
 
 Manuale di installazione
 ------------
