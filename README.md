@@ -8,10 +8,10 @@ Per maggiori informazioni: http://www.opendata.statportal.it
 Contenuto del pacchetto
 ------------
 - script: contiene script SQL da eseguire durante l'installazione.
-- moduli_drupal: contiene i moduli Drupal 7 che è necessario installare e configurare
-  1. spodata.zip: modulo Drupal StatPortal OpenData
-	2. seven.zip: template amministrazione
-	3. statportal.zip: template front-end
+- sp-odata: contiene i moduli Drupal 7 che è necessario installare e configurare
+  	1. sp-odata/sites/all/modules/spodata: modulo Drupal StatPortal OpenData
+	2. sp-odata/sites/all/themes/seven: template amministrazione
+	3. sp-odata/sites/all/themes/statportal: template front-end
 - servizi Java da installare e configurare:
 	1. D2RQServerStarter
 	2. OpenDataProxy
