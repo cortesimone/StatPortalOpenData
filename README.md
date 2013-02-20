@@ -36,3 +36,8 @@ Copyright (c) 20012-2013 Sistemi Territoriali S.r.l. - http://www.sister.it
 
 Il prodotto è rilasciato con la licenza open source GNU General public licence GPLv3: 
 http://www.gnu.org/licenses/gpl-3.0.html
+
+
+
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/be61efc84f9d9d2a595d8740cb753a5d "githalytics.com")](http://githalytics.com/sistemi-territoriali/StatPortalOpenData)
