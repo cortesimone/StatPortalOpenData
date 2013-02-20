@@ -67,9 +67,9 @@ function _check_service($service_info, $db_name) {
 		}
 	}
 	else if (strtoupper($service_info->type)=='HTTP'){
-		// MdData?checkConfiguration=dbName&$format=json   http://10.0.0.167:9091/InMemoryProducerExample.svc/MdData?checkConfiguration=sp_opendata_gisdemo_test&$format=json
+		
 		$response = drupal_http_request($service_info->service_url . 'MdData?checkConfiguration=' . $db_name . '&$format=json');
-		//$data_obj->d->results[0]->Res
+		
 		if(isset($response->error))
 			return array( 'status' => false,  'status_text' => $response->error);
 		else {
